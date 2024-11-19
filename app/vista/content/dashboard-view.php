@@ -9,7 +9,7 @@
       ?>
     <div class="card-body">
       <h5 class="card-title">¡Bienvenido <?php echo $_SESSION['nombre']." ".$_SESSION['apellido']; ?>!</h5>
-      <p class="card-text">Este Trabajo fue hecho por Santiago Vergara <br>
+      <p class="card-text">Este Trabajo fue hecho por Santiago Vergara y Nicolas Diaz <br>
       y Nicolas Diaz. </p>
       <a href="<?php echo APP_URL."userUpdate/".$_SESSION['id']."/"; ?>" class="btn btn-primary">Editar Cuenta</a>
       <br>
